@@ -1,12 +1,9 @@
 {
-  "extends":[
-    "next/core-web-vitals",
-    "next"
-  ],
+  "extends": ["next/core-web-vitals", "next"],
   "globals": {
-    "React":"readonly"
+    "React": "readonly"
   },
   "rules": {
-    "no-unused-vars":[1,{"args":"after-used","argsIgnorePattern":"^_"}]
+    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }]
   }
 }
